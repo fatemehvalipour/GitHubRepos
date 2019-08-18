@@ -22,10 +22,11 @@
         android:layout_alignParentRight="true"
         tools:ignore="RtlCompat"
         android:background="@drawable/shape"/>
-    <ListView
+    <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@android:id/list"
-        android:layout_below="@id/username"
-        />
+        android:id="@+id/cardList"
+        android:layout_below="@id/username">
+
+    </androidx.recyclerview.widget.RecyclerView>
 </RelativeLayout>
